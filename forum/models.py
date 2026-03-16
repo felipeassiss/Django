@@ -1,6 +1,6 @@
 import datetime
 from django.utils import timezone
-
+from django.db import models
 
 class Pergunta(models.Model):
     titulo = models.CharField(max_length=200, null=False)
